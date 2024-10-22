@@ -56,7 +56,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>{children}</body>
+      <body className=''>{children}</body>
     </html>
   );
 }
