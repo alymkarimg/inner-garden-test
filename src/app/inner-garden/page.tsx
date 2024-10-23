@@ -22,11 +22,11 @@ export default function InnerGarden() {
         <div className='w-full flex flex-col justify-center items-center top-[-150px] relative'>
           <Hexagon className='bg-white w-[200px] h-[50px] flex items-center justify-center text-white'></Hexagon>
           <div className='flex flex-wrap lg:flex-nowrap justify-center xl:gap-20 lg:pt-20'>
-            <div className='flex flex-col items-center w-[310px] h-[310px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] xl:w-[45vw] xl:h-[45vw] md:p-5'>
+            <div className='flex flex-col items-center w-[310px] h-[310px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] xl:w-[600px] xl:h-[600px] md:p-5'>
               <Hexagon className='bg-[#8858B5] w-full relative top-[39px] h-[75px] z-10 flex items-center justify-center text-white'></Hexagon>
               <Octagon className='bg-white flex w-full h-full items-start justify-center text-white octagon-2'></Octagon>
             </div>
-            <div className='flex flex-col items-center w-[310px] h-[310px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] xl:w-[45vw] xl:h-[45vw] md:p-5'>
+            <div className='flex flex-col items-center w-[310px] h-[310px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] xl:w-[600px] xl:h-[600px] md:p-5'>
               <Hexagon className='bg-[#8858B5] w-full relative top-[39px] h-[75px] z-10 flex items-center justify-center text-white'></Hexagon>
               <Octagon className='bg-white flex w-full h-full items-center justify-center text-white octagon-2'></Octagon>
             </div>
