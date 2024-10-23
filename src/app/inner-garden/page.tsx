@@ -6,7 +6,7 @@ import Octagon from '@/components/container/Octagon';
 export default function InnerGarden() {
   return (
     <main>
-      <section className='bg-[#3F3676] overflow-auto'>
+      <section className='bg-[#3F3676] overflow-hidden'>
         {/* placeholder covering top of hexagon */}
         <div className='bg-[#8858B5] w-full h-48 absolute'></div>
         <Hexagon
