@@ -5,6 +5,8 @@ import '@/styles/globals.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
 import '@/styles/colors.css';
 
+import Nav from '@/components/Nav/Nav';
+
 import { siteConfig } from '@/constant/config';
 
 // !STARTERCONF Change these default meta
@@ -56,7 +58,10 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className=''>{children}</body>
+      <body className=''>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }
