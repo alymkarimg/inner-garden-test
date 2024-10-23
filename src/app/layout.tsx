@@ -58,7 +58,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
+      <body className='w- overflow-x-hidden'>
         <Nav />
         {children}
       </body>
