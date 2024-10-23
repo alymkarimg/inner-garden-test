@@ -58,7 +58,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className=''>
+      <body className='w-screen'>
         <Nav />
         {children}
       </body>
