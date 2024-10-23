@@ -5,7 +5,14 @@
 
 .hexagon-2 {
   aspect-ratio: 1;
-  clip-path: polygon(25% 0%, 75% 0%, 90% 50%, 75% 100%, 25% 100%, 10% 50%);
+  clip-path: polygon(
+    0% 0%,
+    /* Top-left corner */ 100% 0%,
+    /* Top-right corner */ 100% 20%,
+    /* Right point */ 75% 100%,
+    /* Bottom-right point */ 25% 100%,
+    /* Bottom-left point */ 0% 0% /* Left point */
+  );
 }
 
 .octagon {
